@@ -17,6 +17,6 @@ function random(n) {
 }
 
 export function generateRandomHand() {
-	const idx = random(HANDS.length);
-	return HANDS[idx];
+	const index = random(HANDS.length);
+	return HANDS[index];
 }
