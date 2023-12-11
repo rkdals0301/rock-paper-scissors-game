@@ -20,6 +20,7 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
 	},
+	"homepage": "https://rkdals0301.github.io/rock-paper-scissors-game/",
 	"eslintConfig": {
 		"extends": [
 			"react-app",
