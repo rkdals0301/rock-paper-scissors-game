@@ -1,7 +1,7 @@
 import "./Hand.scss";
 
 function Hand({ imageName, className }) {
-	const image = require(`../../assets/${imageName}.svg`);
+	const image = new URL(`../../assets/${imageName}.svg`, import.meta.url).href;
 
 	return (
 		<div className={`hand ${className}`}>
