@@ -1,7 +1,7 @@
 import "./HandButton.scss";
 
 function HandButton({ imageName, onClick }) {
-	const image = require(`../../assets/${imageName}.svg`);
+	const image = new URL(`../../assets/${imageName}.svg`, import.meta.url).href;
 	const handleClick = () => onClick(imageName);
 
 	return (
